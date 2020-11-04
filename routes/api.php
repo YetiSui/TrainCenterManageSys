@@ -37,7 +37,7 @@ Route::prefix('supadmin')->namespace('SupAdmin')->group(function () {
     Route::get('tearecorddisplay', 'FormDetailsController@TeaRecordDisplay'); //期末教学记录检查表页面展示
     Route::post('tearecorddispalyinfo', 'FormDetailsController@TeaRecordDisplayInfo'); //期末教学记录检查表页面查看
     Route::post('tearecordselect', 'FormDetailsController@TeaRecordSelect'); //期末教学记录检查表页面搜索
-  
+
   /**
   *唐邦彦
   */
@@ -53,7 +53,7 @@ Route::prefix('supadmin')->namespace('SupAdmin')->group(function () {
     Route::post('addclass','ClassController@addclass');//增加班级
     Route::post('modifyclass','ClassController@modifyclass');//修改班级
     Route::get('findclass','ClassController@findclass');//查询班级
-  
+
   /**
   *张巾巾
   */
